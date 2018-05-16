@@ -5,11 +5,10 @@
 	list-style:none;
    }
 	
-
 body{ 
      background-position: top-center;
      width:1080px;
-	}
+	 }
 /*---------------------------*/
 /*---------------------------*/
 /*--CABEZA---*/
@@ -18,7 +17,7 @@ header{
 	position: relative;
 	width:975px;
 	height:99px;
-	left:270px;
+	left:60px;
 	background: url(../img/cabeza.jpg)
 	}
 #logo{
@@ -38,19 +37,10 @@ nav{
 	margin:4px;
 	width:634px;
 	height:34px;
-	left:315px;
+	left:120px;
 	
 	}
-nav ul{
-	position:absolute;
-	top:0px;
-	width:634px;
-	height:34px;
-	left:0px;
-	
-
-}
-nav ul li{
+#barra1	{
 	float:left;
 	margin-bottom:20px;
 	text-align:center;
@@ -61,8 +51,32 @@ nav ul li{
 	line-height:35px;	
 	border-right:3px solid white;
 	background: url(../img/nav.jpg);
+	
 }
-
+#barra2{
+	float:left;
+	margin-bottom:20px;
+	text-align:center;
+	width:208px;
+	height:34px;
+	font-family:arial;
+	font-size:14px;
+	line-height:35px;	
+	border-right:3px solid white;
+	border-bottom:5px solid #bd005f;
+	background: url(../img/nav.jpg);
+}
+#barra3{float:left;
+	margin-bottom:20px;
+	text-align:center;
+	width:208px;
+	height:34px;
+	font-family:arial;
+	font-size:14px;
+	line-height:35px;	
+	border-right:3px solid white;
+	background: url(../img/nav.jpg);
+	}
 /*---FIN BARRA DE NAVEGACION---*/
 /*---------------------------*/
 /*---------------------------*/
@@ -72,7 +86,7 @@ nav ul li{
 	margin:auto;
 	width:975px;
 	height:730px;
-	left:215px;
+	left:0px;
 	
 }
 #cuerpo h1{
@@ -124,8 +138,8 @@ nav ul li{
 	left: 367px;
 	
 }
-#texto ul li {
-     position:absolute;
+#texto {
+    position:absolute;
 	top:41px;
 	width:74px;
 	height:28px;
@@ -210,6 +224,16 @@ nav ul li{
 	border: 1px solid grey;
 	left: 85px;
 }
+.botoncitos{
+	position:absolute;
+	top:343px;
+	left:210px;
+	font-family:arial;
+	font-size:14px;
+	border-color:#bd005f;
+	}
+
+
 #otro5 ul li{
 	position:absolute;
 	top:253px;
@@ -260,12 +284,15 @@ nav ul li{
 #texto4 ul li {
 	position: relative;
 	top:322px;
+	width:15px;
+	height:15px;
 	line-height: 22px;
 	left:210px;
 	font-family: arial;
 	font-size: 14px;
-	list-style-type: circle;
+	
 }
+
 #texto4 p{
 	position: absolute;
 	top:344px;
@@ -281,11 +308,10 @@ nav ul li{
 	border-radius: 5px;
 	background:#bd005f;
 	color:white;
-	
 }
+
 table{
- 
-position:absolute;
+    position:absolute;
 	top:455px;
 	left:77px;
 	width:545px;
@@ -313,21 +339,20 @@ th {
     background-color: #bc005f;
     color: white;
 }
-#continue ul li{
+#continue {
 	position: absolute;
 	top:607px;
     left:80px;
 	line-height: 25px;
 	width:541px;
-	height:29px;
+	height:35px;
 	text-align:center;
 	font-family: arial;
 	font-size: 14px;
 	color:white;
 	border-radius: 5px;
 	background: #bd005f;
-	
-}	
+	}
 /*---FIN CUERPO CENTRAL---*/	
 /*---------------------------*/
 /*---------------------------*/
@@ -338,7 +363,7 @@ footer{
 	margin:auto;
 	width:975px;
 	height:210px;
-	left:215px;
+	left:0px;
 	background:url(../img/footer.jpg);
 }
 #espacio{
