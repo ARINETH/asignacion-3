@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+   }
+	
+body{ 
+     background-image:url(../imagen/java.jpg);
+     background-position: top center;
+     width:1024px;
+	 }
+/*---------------------------*/
+/*---------------------------*/
+/*--CABEZA---*/
+header{
+	position:relative;
+	width:1010px;
+	height:105px;
+	}
+header h1{
+	font-family: arial;
+	font-size:50px;
+	text-align:center;
+	color: white;
+	text-shadow:0 0 3px #008000, 0 0 5px #ADFF2F; 
+}
+nav{
+	position:relative;
+	width:1010px;
+	height:70px;
+	}
+nav h2{
+	font-family:arial;
+	font-size:25px;
+	text-align:center;
+	color: white;
+	text-shadow:2px 2px 5px green;
+}
+#n1{
+	position:absolute;
+	top:170px;
+	left:100px;
+	width:250px;
+	height:50px;
+	padding:12px 20px;
+	margin:8px 0px;
+    box-sizing: border-box;
+}
+#n2{
+	position:absolute;
+	width:250px;
+	top:170px;
+	left:600px;
+	height:50px;
+	padding:12px 20px;
+	margin:8px 0px;
+    box-sizing: border-box;
+}
+select{
+	position:absolute;
+	left:450px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#calcular{
+	position:absolute;
+	width:100px;
+	top:250px;
+	left:250px;
+	height:50px;
+	font-size:16px;
+	background-color: #4CAF50;
+    color: white;
+}
+#igual{
+ position:absolute;
+	top:250px;
+	left: 500px;
+	width:200px;
+	padding:12px 20px;
+	margin:8px 0px;
+    box-sizing: border-box;
+	
+}
+label{
+	position:absolute;
+	top:270px;
+	left: 380px;
+	font-family: arial;
+	font-size: 16px;
+	color: white;
+      
+}
